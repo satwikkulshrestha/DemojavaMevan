@@ -7,12 +7,14 @@ public class MyClass {
 	{
 		return (l*b); 
 	}
-	public float areatri(float r)
+	public float areacicle(float r)
 	{
 		return (float) (3.14*r*r); 
 	}
-	
-
+	public void show()
+	{
+		System.out.println("Hello GFG");
+	}
 	public static void main(String[] args) {
 		MyClass ob = new MyClass();
 		int l;
