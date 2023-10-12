@@ -5,7 +5,11 @@ import java.util.Scanner;
 public class MyClass {
 	public int arearect(int l, int b)
 	{
-		return (l*b);
+		return (l*b); 
+	}
+	public float areatri(float r)
+	{
+		return (float) (3.14*r*r); 
 	}
 	
 
