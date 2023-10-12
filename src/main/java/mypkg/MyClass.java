@@ -25,6 +25,7 @@ public class MyClass {
 		System.out.println("Enter Breadth : ");
 		b=sc.nextInt();
 		System.out.println("Area of rectangle is : "+ob.arearect(l,b) );
+		System.out.println("Area of rectangle is : "+ob.areacicle(10) );
 	
 	}
 
