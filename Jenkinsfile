@@ -30,7 +30,12 @@ pipeline {
 					bat 'mvn install'
 					}
 				}		
-					
+			stage('Mevan Test')
+			{
+				steps {
+					bat 'mvn Test'
+					}
+				}		
 			stage('Final Build Step')
 			{
 				steps {
