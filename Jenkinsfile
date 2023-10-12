@@ -33,7 +33,7 @@ pipeline {
 			stage('Mevan Test')
 			{
 				steps {
-					bat 'mvn Test'
+					bat 'mvn test'
 					}
 				}		
 			stage('Final Build Step')
